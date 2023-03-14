@@ -1,0 +1,95 @@
+.playlists{
+    height: 24rem;
+    overflow: scroll;
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: flex-start;
+    cursor: all-scroll;
+
+}
+.tracItems{
+    display: flex;
+    justify-content: space-around;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-items: flex-start;
+    margin: 1rem 0 0;
+
+}
+.musics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    font-family: cursive;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(3px);
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.musics span{
+    font-size: 1.4rem;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+.songImg img{
+    height: 2.3rem;
+    border-radius: 50%;
+    width: 2.3rem;
+    border: 3px solid white;
+}
+
+.animation{
+    animation: rotatePlayer 3s linear infinite;
+  }
+  @keyframes rotatePlayer {
+    from{
+      transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(360deg);
+    }
+  }
+  
+/*--------------------------------------------media query------------------------------------------*/
+@media only screen and  (max-width:399px ) {
+  /* For mobile phones: */
+.musics span{
+  font-size: .8rem;
+}
+.songImg img{
+  width: 2rem;
+  height: 2rem;
+}
+  
+}
+
+@media only screen and (min-width:400px ) and (max-width:640px ) {
+  /* For big mobile phones: */
+  .musics span{
+    font-size: 1rem;
+  }
+  .songImg img{
+    width: 2rem;
+    height: 2rem;
+  }
+    
+}
+@media only screen and (min-width:641px ) and (max-width:800px ) {
+  /* For tab: */
+  .musics span{
+    font-size: 1rem;
+  }
+  .songImg img{
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+@media only screen and (min-width:799px ) and (max-width:1160px ) {
+
+  /* For bigger than tab: */
+  
+}

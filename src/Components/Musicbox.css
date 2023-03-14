@@ -1,0 +1,208 @@
+.musicBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(25deg, #fae4e3, #6a9cb1b3, #fae4e3);
+    padding-bottom: 1rem;
+    font-family: cursive;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.musicBox .song{
+    width: 80%;
+}
+.musics2{
+    width: 99%;
+    font-size: 1.3rem;
+}
+.song input{
+    width: 100%;
+    cursor: pointer;
+}
+.song{
+        width: 100%;
+    text-align: center;
+    margin: 0;
+}
+.songName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.song img{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 0;
+}
+.song p{
+    width: 98%;
+    font-size: 1.3rem;
+    text-align: left;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+.buttons img{
+    height: 2rem;
+    cursor: pointer;
+}
+.play{
+    background-image: url(Music\ app.jpg);
+    width: 80%;
+    height: 24rem;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+ 
+.tracCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(85, 83, 83);
+    font-size: 1.5rem;
+    
+}
+.tracCard .imgDiv{
+    height: 17rem;
+}
+
+.tracCard img{
+  
+    height: 17rem;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.tracCard img:hover{
+    box-shadow: none;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 85%;
+    align-items: center;
+    font-family: cursive;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(3px);
+}
+
+/*--------------------------------------------media query------------------------------------------*/
+@media only screen and  (max-width:400px ) {
+    /* For mobile phones: */
+    playlists{
+        width: 50%;
+  
+    }
+    .play{
+       
+       
+    width: 95%;
+
+
+    }
+    .tracCard{
+        width: 100%;
+        font-size: .8rem;
+    }
+    .tracCard .imgDiv{
+        height: 10rem;
+    }
+    .tracCard img{
+        height: 10rem;
+    }
+    .card{
+        height: fit-content;
+        padding: 0.8rem 0.3rem;    
+    }
+    .musicBox{
+        width: 100%;
+    }
+  }
+  
+@media only screen and (min-width:400px ) and (max-width:640px ) {
+    /* For big mobile phones: */
+    playlists{
+        width: 50%;
+      
+    }
+    .play{
+       
+     
+    width: 95%;
+  
+
+    }
+    .tracCard{
+        width: 100%;
+        font-size: .8rem;
+    }
+    .tracCard .imgDiv{
+        height: 12.3rem;
+    }
+    .tracCard img{
+        height: 12.3rem;
+    }
+    .card{
+        height: fit-content;
+        padding: 2rem 0.3rem;    
+    }
+    .musicBox{
+        width: 100%;
+    }
+  }
+  @media only screen and (min-width:641px ) and (max-width:800px ) {
+    /* For tab: */
+    playlists{
+        width: 50%;
+        
+    }
+    .play{
+       
+       
+    width: 95%;
+
+
+    }
+    .tracCard{
+        width: 100%;
+        font-size: .8rem;
+    }
+    .tracCard .imgDiv{
+        height: 18rem;
+    }
+    .tracCard img{
+        height: 18rem;
+    }
+    .card{
+        height: fit-content;
+        padding: 0.8rem 0.3rem;    
+    }
+    .musicBox{
+        width: 100%;
+    }
+  }
+  @media only screen and (min-width:799px ) and (max-width:1160px ) {
+  
+    /* For bigger than tab: */
+    .card{
+        height: fit-content;
+        padding: 0.8rem 0.3rem;   
+    }
+    .musicBox{
+        width: 100%;
+    }
+  }
+  

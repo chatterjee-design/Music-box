@@ -1,0 +1,52 @@
+ <>
+    <nav>
+        <div><i class="fa-brands fa-instagram"></i></div>
+       
+       <ul>
+        <li> <i class="fa-solid fa-house"></i>
+        <li> <i class="fa-solid fa-magnifying-glass"></i></li>
+        <li> <i class="fa-regular fa-compass"></i></li>
+        <li> <i class="fa-brands fa-facebook-messenger"></i></li>
+        <li>  <i class="fa-regular fa-heart"></i></li>
+        <li>  <i class="fa-regular fa-square-plus"></i></li>
+        <li>  <i class="fa-regular fa-user"></i></li>
+        <li>  <i class="fa-solid fa-bars"></i></li></li>
+       </ul>
+      
+    </nav> 
+    </>
+
+
+
+
+
+
+ <>
+    <div className='story'>
+        <div className='storyItems'>
+            <img src='story.jpg'></img>
+            <p>Model</p>
+        </div>
+        <div className='storyItems'>
+            <img src='story.jpg'></img>
+            <p>Model</p>
+        </div>
+        <div className='storyItems'>
+            <img src='story.jpg'></img>
+            <p>Model</p>
+        </div>
+        <div className='storyItems'>
+            <img src='story.jpg'></img>
+            <p>Model</p>
+        </div>
+        <div className='storyItems'>
+            <img src='story.jpg'></img>
+            <p>Model</p>
+        </div>
+        <div className='storyItems'>
+            <img src='story.jpg'></img>
+            <p>Model</p>
+        </div>
+    </div>
+      
+    </>

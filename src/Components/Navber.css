@@ -1,0 +1,31 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;   
+    background:linear-gradient(25deg, #9AC9C3,#fae4e3,#F9BBB8, #DB9192,#fae4e3, #6a9cb1b3) ;
+}
+nav ul{
+    display: flex;
+    margin: 0;
+    list-style: none;
+    width: 80%;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brandItems img{
+    height: 3.5rem;
+}
+.brandItems a{
+    font-size: 2rem;
+    font-family: cursive;
+}
